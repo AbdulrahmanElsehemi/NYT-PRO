@@ -31,7 +31,6 @@ class APIWrapper {
     
     static var Manager: Alamofire.SessionManager = {
         
-        // Create the server trust policies
         let serverTrustPolicies: [String: ServerTrustPolicy] = [
             "qa.channelplay.in": .disableEvaluation
         ]
