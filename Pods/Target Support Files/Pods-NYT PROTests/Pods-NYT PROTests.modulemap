@@ -1,0 +1,6 @@
+framework module Pods_NYT_PROTests {
+  umbrella header "Pods-NYT PROTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
